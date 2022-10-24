@@ -1,0 +1,16 @@
+.con{
+    border: 2ps solid rgb(4, 253, 4);
+    margin: 10px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+  }
+  .con1{
+    border: 2ps solid rgb(253, 83, 4);
+    margin: 10px;
+    height: 800px;
+  }
+  .container{
+    border: 2ps solid rgb(62, 4, 253);
+   
+  }

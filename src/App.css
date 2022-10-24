@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,79 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.navbar{
+  background-color: rgb(255, 193, 193);
+  box-shadow: 3px 3px rgb(178, 176, 176);
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+  margin: 25px;
+ 
+}
+h1{
+ 
+  color: rgb(103, 149, 248);
+  border-bottom: 2px solid rgba(251, 30, 30, 0.839);
+  width: fit-content;
+ 
+}
+.box{
+  /* border: 2px solid brown; */
+  width: 98%;
+  height: 680px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box1{
+  /* border: 2px solid rgb(65, 4, 248); */
+  width: 45%;
+  height: 550px;
+  margin: 10px;
+}
+.box2{
+  /* border: 2px solid rgb(251, 3, 3); */
+  width: 45%;
+  height: 550px;
+  margin: 10px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  
+}
+.form{
+  border: 2px solid rgb(103, 149, 248);
+  width: 380px;
+  border-radius: 15px;
+  background-color: rgb(103, 149, 248);
+  width: 380px;
+  height: 500px;
+  margin: 15px;
+  padding: 15px 15px 15px 15px;
+  color: rgb(55, 54, 54);
+  margin-top: 100px;
+}
+label{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+#name{
+  width: 330px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
+.btn{
+  margin: 10px;
+  width: 120px;
+}
+.tab{
+  width: 80%;
+  margin: 20px;
+  margin-left: 150px;
 }
